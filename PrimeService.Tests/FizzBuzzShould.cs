@@ -42,13 +42,5 @@ namespace Fizzbuzz.Services
 			string result = _fizzBuzzService.FizzBuzz(value);
 			Assert.AreEqual(result, "Buzz");
 		}
-		[TestMethod]
-		public void etsichainedecaractère()
-		{
-			throw new NotImplementedException("Please create a test first.");
-			//string result = _fizzBuzzService.FizzBuzz(value);
-			//Assert.AreEqual(result, "String non prise en charge");
-
-		}
 	}
 }
